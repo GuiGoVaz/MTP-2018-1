@@ -9,7 +9,7 @@ int main()
     printf("Digite uma sequencia: ");
     char  bits[256];
     int i=0,cum=0;
-    scanf("%s",&bits);
+    scanf("%s",bits);
     getchar();
     while(bits[i]!='\0'){
         if(bits[i]>='0' && bits[i]<='9'){
